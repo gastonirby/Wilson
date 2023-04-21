@@ -283,4 +283,8 @@ img {
   p {
     margin-bottom: 5%;
   }
+
+  h1 {
+    font-size: 4rem;
+  }
 }

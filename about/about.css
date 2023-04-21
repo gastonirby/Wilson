@@ -162,17 +162,29 @@ h1 {
   font-size: 7rem;
 }
 
-p {
-  font-size: 1.5rem;
+h3 {
   text-align: center;
+  font-size: 4rem;
+  border-bottom: 1px solid black;
 }
 
+p {
+  font-size: 1.5rem;
+}
+
+img {
+  width: 70%;
+  margin: 5% 0;
+}
 main {
   width: 80%;
   margin: auto;
   padding: 5%;
   background-color: rgba(245, 243, 226, 0.5);
   border-radius: 30px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-menu {
