@@ -242,9 +242,56 @@ footer {
   justify-content: center;
   margin-top: 15%;
   margin-bottom: 0%;
+  padding: 2%;
   background-color: rgba(245, 243, 226, 0.2);
   width: 100%;
   z-index: 3;
+  position: absolute;
+  bottom: 0;
+}
+
+.icons{
+  display: flex;
+	background: none;
+  padding: 2%;
+	font-size: 5rem;
+	border: none;
+	color: whitesmoke;
+	cursor: pointer;
+  z-index: 4;
+}
+
+/* .phone h4 {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+}
+
+.phone:hover {
+  opacity:0;
+}
+.phone:hover h4{
+  opacity: 1;
+  transform: scale(1);
+} */
+
+h4 {
+  display: none;
+  font-size: 2rem;
+} 
+
+.phone:hover + h4 {
+  display: inline-block;
+  color: white;
+}
+ 
+.icons:hover {
+	background-color:rgba(255, 255, 255, 0.38);
+	color:rgba(213,197,174, .6);
+	background: none;
 }
 
 /* @media only screen and (max-width: 768px) */
