@@ -173,7 +173,6 @@ p {
   text-align: center;
   background-color: rgba(245, 243, 226, 0.5);
   padding: 5%;
-  
   border-radius: 10px;
 }
 
@@ -199,19 +198,18 @@ main {
 
 .navbar {
   display: flex;
+  align-self: flex-start;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 1.5rem;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
 }
 
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-item {
-  /* padding: 4%; */
 }
 
 .hamburger {
@@ -236,6 +234,17 @@ main {
 
 .nav-link:hover {
   color: green;
+}
+
+footer {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 0%;
+  background-color: rgba(245, 243, 226, 0.2);
+  width: 100%;
+  z-index: 3;
 }
 
 /* @media only screen and (max-width: 768px) */
