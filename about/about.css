@@ -253,7 +253,7 @@ footer {
 .icons{
   display: flex;
 	background: none;
-  padding: 2%;
+  padding: 0% 3%;
 	font-size: 5rem;
 	border: none;
 	color: whitesmoke;
