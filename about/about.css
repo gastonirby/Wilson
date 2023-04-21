@@ -127,12 +127,15 @@ html {
   font-size: 62.5%;
 }
 body {
+  display: flex;
+  flex-direction: column;
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   overscroll-behavior: none;
+  min-height: 100vh;
 }
 
 .img {
@@ -246,8 +249,8 @@ footer {
   background-color: rgba(245, 243, 226, 0.2);
   width: 100%;
   z-index: 3;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
+  /* bottom: 0; */
 }
 
 .icons{
