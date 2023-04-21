@@ -197,9 +197,14 @@ main {
 
 .navbar {
   display: flex;
+  align-self: flex-start;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  width: 100%;
+  margin-top: 0%;
+  
+  position: fixed;
 }
 
 .nav-menu {
