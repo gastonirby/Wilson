@@ -163,9 +163,12 @@ body {
     padding: 2%;
     margin: 2%;
     border-radius: 15px;
+    color: white;
   }
 
-
+  .checked {
+    color: orange;
+  }
 
 
 
