@@ -181,8 +181,23 @@ main {
   flex-direction: column;
 }
 
-img {
-  width: 30%;
+
+.listPic {
+  display: flex;
+  margin-top: 3%;
+}
+
+.list {
+  padding-right: 5%;
+}
+
+.pic {
+  width: 50%;
+  height: auto;
+}
+
+.link {
+  color: whitesmoke;
 }
 
 .nav-menu {
@@ -290,5 +305,21 @@ img {
 
   h1 {
     font-size: 4rem;
+  }
+
+  .listPic {
+    flex-direction: column;
+  }
+  
+  .list {
+    order: 2;
+    padding-right: 0%;
+    padding-top: 5%;
+  }
+  
+  .pic {
+    width: 50%;
+    
+    align-self: center;
   }
 }
