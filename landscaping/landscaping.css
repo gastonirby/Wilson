@@ -247,23 +247,28 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-
-  /* border: 1px solid red; */
 }
+
 .step {
   text-align: center;
   padding: 2%;
+  margin: 3%;
   width: 40%;
-  /* border: 1px solid red; */
+  background-color: rgba(9, 92, 19, 0.5);
+  border-radius: 15px;
 }
+
 .step p {
   text-align: center;
   padding: 5%;
+  color: white;
 }
+
 h4 {
   text-align: center;
   font-size: 1.7rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  color: white;
 }
 
 /* @media only screen and (max-width: 768px) */
@@ -321,7 +326,7 @@ h4 {
     margin-bottom: 5%;
   }
 
-  h1 {
+  .title {
     font-size: 4rem;
   }
 
@@ -337,7 +342,15 @@ h4 {
 
   .pic {
     width: 50%;
-
     align-self: center;
+  }
+
+  .step {
+    width: 100%;
+    margin: 2%;
+  }
+
+  .step p {
+    padding: 2%;
   }
 }
