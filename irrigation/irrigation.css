@@ -171,6 +171,10 @@ main {
   border-radius: 30px;
 }
 
+.link {
+  color: whitesmoke;
+}
+
 .nav-menu {
   width: 80%;
   margin: auto;
