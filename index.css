@@ -224,15 +224,19 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
-  /* font-family: 'Playfair Display', serif; */
+  margin-top: 15%;
+  padding: 0;
+  margin-bottom: 0%;
   font-family: 'Bad Script', cursive;
+  line-height: 95%;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-top: 0%;
+  padding: 0%;
   text-align: center;
-  color: #CCDAB7;
+  color: white;
 }
 
 p {
