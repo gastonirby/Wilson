@@ -230,6 +230,14 @@ li {
   color: #ece81f;
 }
 
+.link:hover {
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  background-color: rgba(236, 232, 31, 0.427);
+  border-radius: 15px;
+  transition: 1s;
+}
+
 .nav-menu {
   width: 80%;
   margin: auto;
@@ -328,6 +336,12 @@ h4 {
     margin: 2.5rem 0;
   }
 
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -350,7 +364,6 @@ h4 {
     padding: 5%;
     width: 90%;
     border-radius: 0;
-    background-color: rgba(245, 243, 226, 0.3);
   }
   img {
     width: 100%;
