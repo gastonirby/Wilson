@@ -126,6 +126,9 @@ table {
 html {
   font-size: 62.5%;
 }
+
+
+
 body {
   font-size: 1.6rem;
   line-height: 1.5;
@@ -216,12 +219,13 @@ video {
 }
 
 .title {
-  font-size: 7rem;
+  font-size: 7.5rem;
   color: #fcfcfc;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
+  font-family: 'Playfair Display', serif;
 }
 
 h2 {
@@ -243,6 +247,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-style: oblique;
+  font-family: 'Bad Script', cursive;
+  color: white;
+  font-size: 2.5rem;
 }
 
 .reviews {
