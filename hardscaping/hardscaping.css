@@ -162,9 +162,28 @@ h1 {
   font-size: 7rem;
 }
 
+h4 {
+  text-align: center;
+}
+
 p {
   font-size: 1.5rem;
   text-align: left;
+}
+
+img {
+  width: 50%;
+}
+
+.listPic {
+  display: flex;
+  margin: 3%;
+}
+
+.list {
+  text-align: left;
+  align-items: start;
+  width: 50%;
 }
 
 main {
@@ -173,6 +192,10 @@ main {
   padding: 5%;
   background-color: rgba(245, 243, 226, 0.5);
   border-radius: 30px;
+}
+
+.bottomText {
+  text-align: center;
 }
 
 .nav-menu {
@@ -195,10 +218,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-item {
-  /* padding: 4%; */
 }
 
 .hamburger {
