@@ -224,11 +224,15 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15%;
-  padding: 0;
-  margin-bottom: 0%;
   font-family: 'Bad Script', cursive;
-  line-height: 95%;
+  line-height: 155%;
+  /* border-bottom: 2px solid #ece91f; */
+  width: 50%;
+  margin: 15% auto 0;
+
+  text-decoration: 1.5px underline;
+  text-underline-position: under;
+  text-decoration-color: #ece81f;
 }
 
 h2 {
@@ -330,5 +334,9 @@ p {
 
   .quote {
     font-size: 1.8rem;
+  }
+
+  .title {
+    margin-top: 35%;
   }
 }
