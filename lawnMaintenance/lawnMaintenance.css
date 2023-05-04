@@ -185,8 +185,15 @@ main {
 
 .basic,
 .premium {
-  margin-top: 5%;
-  width: 45%;
+  margin: 5% 0%;
+  width: 40%;
+}
+
+.bottomText {
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  margin: auto
 }
 
 .nav-menu {
