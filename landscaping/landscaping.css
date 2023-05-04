@@ -150,8 +150,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10% 0;
+  margin: 10% 0 3%;
   font-size: 5rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .body {
@@ -161,6 +162,8 @@ body {
 h3 {
   font-size: 2rem;
   text-align: center;
+  font-family: 'Bad Script', cursive;
+  margin-bottom: 2%;
 }
 
 p {
@@ -178,13 +181,18 @@ main {
   flex-direction: column;
 }
 
-.listPic {
-  display: flex;
-  margin-top: 3%;
+.contact {
+  text-align: center;
 }
 
 .list {
-  padding-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+li {
+  margin: 1%;
 }
 
 .pic {
@@ -330,14 +338,11 @@ h4 {
     font-size: 4rem;
   }
 
-  .listPic {
-    flex-direction: column;
-  }
-
   .list {
-    order: 2;
-    padding-right: 0%;
-    padding-top: 5%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
   }
 
   .pic {
@@ -346,7 +351,7 @@ h4 {
   }
 
   .step {
-    width: 100%;
+    width: 70%;
     margin: 2%;
   }
 

@@ -191,6 +191,11 @@ img {
   margin: 5% 0;
 }
 
+svg {
+  width: 205px;
+  height: 38px;
+}
+
 .link {
   color: whitesmoke;
 }
