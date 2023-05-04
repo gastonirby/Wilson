@@ -164,11 +164,21 @@ p {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   margin: auto;
   padding: 5%;
   background-color: rgba(245, 243, 226, 0.5);
   border-radius: 30px;
+}
+
+img {
+  /* display: flex; */
+  width: 70%;
+  margin: 5% 0;
 }
 
 .link {
