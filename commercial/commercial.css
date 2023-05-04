@@ -172,6 +172,25 @@ main {
   border-radius: 30px;
 }
 
+img {
+  width: 30%;
+}
+
+.listPic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3% auto;
+  width: 80%;
+}
+
+.list {
+  text-align: left;
+  padding: 5%;
+  align-items: start;
+  width: 50%;
+}
+
 .nav-menu {
   width: 80%;
   margin: auto;
@@ -260,5 +279,12 @@ main {
 
   h1 {
     font-size: 4rem;
+  }
+
+  img {
+    width: 50%;
+  }
+  .listPic {
+    width: 100%;
   }
 }
