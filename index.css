@@ -247,7 +247,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-style: oblique;
+  /* font-style: oblique; */
   font-family: 'Bad Script', cursive;
   color: white;
   font-size: 2.5rem;
@@ -294,6 +294,13 @@ p {
   .nav-item {
     margin: 2.5rem 0;
   }
+
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+  }
+  
 
   .hamburger {
     display: block;
