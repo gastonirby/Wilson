@@ -170,11 +170,15 @@ video {
   flex-direction: column;
   align-items: center;
   margin: 15% auto 3%;
-  border-bottom: 1px solid #ece81f;
+  /* border-bottom: 1px solid #ece81f; */
   width: 50%;
   text-align: center;
   font-family: 'Bad Script', bold;
-  line-height: 100%;
+  line-height: 120%;
+
+  text-decoration: 1.5px underline;
+  text-underline-position: under;
+  text-decoration-color: #ece81f;
 }
 
 .body {
