@@ -219,13 +219,14 @@ video {
 }
 
 .title {
-  font-size: 7.5rem;
+  font-size: 12rem;
   color: #fcfcfc;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Bad Script', cursive;
 }
 
 h2 {
