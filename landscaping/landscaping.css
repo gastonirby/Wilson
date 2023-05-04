@@ -146,14 +146,35 @@ body {
   z-index: 0;
 }
 
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 33, 6, 0.25);
+  z-index: 1;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .title {
+  font-size: 8rem;
+  color: #fcfcfc;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10% 0 3%;
-  font-size: 9rem;
-  /* font-family: 'Playfair Display', serif; */
-  font-family: 'Bad Script', cursive;
+  margin: 15% auto 3%;
+  border-bottom: 1px solid #ece81f;
+  width: 50%;
+  text-align: center;
+  font-family: 'Bad Script', bold;
+  line-height: 100%;
 }
 
 .body {
@@ -163,21 +184,24 @@ body {
 h3 {
   font-size: 2rem;
   text-align: center;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Bad Script', bold;
   margin-bottom: 2%;
+  color: white;
+  font-style: bold;
 }
 
 p {
   font-size: 1.5rem;
   text-align: left;
+  padding: 5%;
+  /* background-color: rgba(245, 243, 226, 0.5); */
+  border-radius: 30px;
+  color: white;
 }
 
 main {
   width: 80%;
   margin: auto;
-  padding: 5%;
-  background-color: rgba(245, 243, 226, 0.5);
-  border-radius: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -190,6 +214,7 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 3%;
+  color: white;
 }
 
 li {
@@ -202,13 +227,13 @@ li {
 }
 
 .link {
-  color: whitesmoke;
+  color: #ece81f;
 }
 
 .nav-menu {
   width: 80%;
   margin: auto;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 2px solid #587446;
 }
 
 .navbar {
@@ -238,17 +263,17 @@ li {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: white;
 }
 
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
-  color: #475569;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: green;
+  color: #fafafa;;
 }
 
 .steps {
@@ -263,7 +288,7 @@ li {
   padding: 2%;
   margin: 3%;
   width: 40%;
-  background-color: rgba(9, 92, 19, 0.5);
+  background-color: rgba(88, 116, 70, 0.721);
   border-radius: 15px;
 }
 
