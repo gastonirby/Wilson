@@ -331,8 +331,13 @@ h4 {
     width: 100%;
     height: 80vh;
   }
+
   p {
     margin-bottom: 5%;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 2%;
   }
 
   .title {
@@ -342,8 +347,6 @@ h4 {
   .list {
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
   }
 
   .pic {
