@@ -322,4 +322,8 @@ p {
   .review {
     width: 80%;
   }
+
+  .quote {
+    font-size: 1.8rem;
+  }
 }
