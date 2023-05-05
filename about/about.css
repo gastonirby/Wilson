@@ -246,7 +246,8 @@ footer {
   width: 50%;
 }
 
-.icons, .phoneIcon {
+.icons,
+.phoneIcon {
   background: none;
   font-size: 3rem;
   width: 100%;
@@ -264,29 +265,30 @@ footer {
 
 h4 {
   display: none;
-  color: whitesmoke;
+  color: rgba(236, 232, 31);
   font-size: 2rem;
   width: 100%;
-  margin:0;
+  margin: 0;
 }
 
 .phoneIcon:hover h4 {
   display: inline;
   margin: 0;
   padding: 0;
+  transition: 2s;
 }
 
-.phoneIcon:hover ion-icon{
+.phoneIcon:hover ion-icon {
   display: none;
   margin: 0;
   padding: 0;
+  transition: 2s;
 }
 
-
 .icons:hover {
-  background-color: rgba(255, 255, 255, 0.38);
-  color: rgba(213, 197, 174, 0.6);
+  color: rgba(236, 232, 31);
   background: none;
+  transition: 1.5s;
 }
 
 /* @media only screen and (max-width: 768px) */
@@ -341,7 +343,19 @@ h4 {
     border-radius: 0%;
   }
 
-  h4 {
-    
+  .iconContainer {
+    width: 100%;
+  }
+
+  .phoneIcon:hover h4 {
+    display: none;
+    transition: 2s;
+  }
+
+  .phoneIcon:hover ion-icon {
+    display: inline;
+    color: rgba(236, 232, 31);
+    background: none;
+    transition: 1.5s;
   }
 }
