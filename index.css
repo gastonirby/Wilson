@@ -171,7 +171,7 @@ video {
 .nav-menu {
   width: 80%;
   margin: auto;
-  border-bottom: 2px solid #587446;
+  border-bottom: 2px solid #ffffff7d;
 }
 
 .navbar {
@@ -211,7 +211,7 @@ video {
 }
 
 .nav-link:hover {
-  color: #fafafa;;
+  color: #2a913e;
 }
 
 .body {
@@ -220,15 +220,17 @@ video {
 
 .title {
   font-size: 12rem;
-  color: #fcfcfc;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Bad Script', cursive;
   line-height: 100%;
-  border-bottom: 2px solid #ece91f;
+  border-bottom: 2px solid #ffffff4b;
   width: 30%;
   margin: 15% auto 0;
+  
+  
 
   /* text-decoration: 1.5px underline;
   text-underline-position: under;
