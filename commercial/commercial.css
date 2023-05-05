@@ -152,6 +152,7 @@ body {
   align-items: center;
   margin: 10% 0;
   font-size: 5rem;
+  letter-spacing: .8px;
 }
 
 .body {
@@ -162,6 +163,7 @@ body {
 p {
   font-size: 1.5rem;
   text-align: left;
+  
 }
 
 main {
@@ -186,17 +188,20 @@ img {
 
 .listPic {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  margin: 3% auto;
-  width: 80%;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
 }
 
 .list {
+  letter-spacing: .8px;
+  line-height: 170%;
   text-align: left;
   padding: 5%;
+  margin: 3%;
   align-items: start;
-  width: 50%;
+  color: white;
 }
 
 .nav-menu {
@@ -290,7 +295,8 @@ img {
   }
 
   img {
-    width: 100%;
+    width: 80%;
+    order: 2;
   }
   .listPic {
     width: 100%;
@@ -306,6 +312,9 @@ img {
   }
 
   .list {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
+    line-height: 180%;
   }
 }

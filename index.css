@@ -220,6 +220,7 @@ video {
 
 .title {
   font-size: 12rem;
+  letter-spacing: 5px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
