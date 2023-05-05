@@ -231,69 +231,57 @@ main {
 }
 
 footer {
-  display: flex;
-  align-self: flex-end;
-  justify-content: center;
   margin-top: 10%;
   margin-bottom: 0%;
-  padding: 1%;
   background-color: rgba(245, 243, 226, 0.2);
   width: 100%;
   z-index: 3;
 }
 
-.icons {
+.iconContainer {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1% auto;
+  width: 50%;
+}
+
+.icons, .phoneIcon {
   background: none;
-  padding: 0% 2%;
   font-size: 3rem;
+  width: 100%;
   border: none;
   color: whitesmoke;
   cursor: pointer;
   z-index: 4;
 }
 
-.iconContainer {
+.phoneIcon {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 20%;
-  margin-left: 10%;
-}
-
-/* .phone h4 {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8;
-  font-size: 2rem;
-  color: white;
-  display: flex;
-}
-
-.phone:hover {
-  opacity:0;
-}
-.phone:hover h4{
-  opacity: 1;
-  transform: scale(1);
-} */
-
-h4 {
-  margin-left: 1%;
-  color: whitesmoke;
-  font-size: 1.5rem;
-  align-self: center;
-}
-
-.phone {
-  display: flex;
   flex-direction: column;
 }
 
-/* .phone:hover + h4 {
-  display: inline-block;
-  color: white;
-} */
+h4 {
+  display: none;
+  color: whitesmoke;
+  font-size: 2rem;
+  width: 100%;
+  margin:0;
+}
+
+.phoneIcon:hover h4 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.phoneIcon:hover ion-icon{
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .icons:hover {
   background-color: rgba(255, 255, 255, 0.38);
@@ -351,5 +339,9 @@ h4 {
 
   p {
     border-radius: 0%;
+  }
+
+  h4 {
+    
   }
 }
