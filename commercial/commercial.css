@@ -176,6 +176,14 @@ img {
   width: 30%;
 }
 
+.verticalImg {
+  display: inline;
+}
+
+.horizontalImg {
+  display: none;
+}
+
 .listPic {
   display: flex;
   justify-content: space-around;
@@ -282,9 +290,22 @@ img {
   }
 
   img {
-    width: 50%;
+    width: 100%;
   }
   .listPic {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .horizontalImg {
+    display: inline;
+  }
+
+  .verticalImg {
+    display: none;
+  }
+
+  .list {
     width: 100%;
   }
 }
