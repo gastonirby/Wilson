@@ -177,17 +177,20 @@ img {
 
 .listPic {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   margin: 3% auto;
-  width: 80%;
+  width: 100%;
 }
 
 .list {
+  letter-spacing: .8px;
+  line-height: 170%;
   text-align: left;
   padding: 5%;
+  margin: 3%;
   align-items: start;
-  width: 50%;
+  color: white;
 }
 
 main {
@@ -292,8 +295,15 @@ main {
     font-size: 4rem;
   }
 
+  img {
+    width: 45%;
+  }
+
   .list {
-    padding: auto;
+    justify-content: space-around;
+    letter-spacing: 0px;
+    width: 100%;
+    line-height: 160%;
   }
 
   .listPic {
