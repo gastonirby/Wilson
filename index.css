@@ -227,7 +227,7 @@ video {
   font-family: 'Bad Script', cursive;
   line-height: 100%;
   border-bottom: 2px solid #ece91f;
-  
+  width: 30%;
   margin: 15% auto 0;
 
   /* text-decoration: 1.5px underline;
