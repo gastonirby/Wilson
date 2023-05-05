@@ -225,14 +225,14 @@ video {
   flex-direction: column;
   align-items: center;
   font-family: 'Bad Script', cursive;
-  line-height: 155%;
-  /* border-bottom: 2px solid #ece91f; */
-  width: 50%;
+  line-height: 100%;
+  border-bottom: 2px solid #ece91f;
+  
   margin: 15% auto 0;
 
-  text-decoration: 1.5px underline;
+  /* text-decoration: 1.5px underline;
   text-underline-position: under;
-  text-decoration-color: #ece81f;
+  text-decoration-color: #ece81f; */
 }
 
 h2 {
@@ -279,6 +279,20 @@ p {
 
 .checked {
   color: orange;
+}
+
+
+
+@media (max-width: 1700px) {
+  .title {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title {
+    width: 40%;
+  }
 }
 
 /* @media only screen and (max-width: 768px) */
@@ -338,5 +352,6 @@ p {
 
   .title {
     margin-top: 35%;
+    width: 70%;
   }
 }
