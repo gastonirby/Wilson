@@ -161,12 +161,17 @@ body {
 h3 {
   text-align: center;
   font-size: 2rem;
-  border-bottom: 1px solid black;
+  letter-spacing: 2px;
+  line-height: 200%;
+  border-bottom: 1px solid white;
+  margin-bottom: 3%;
+
 }
 
 p {
   font-size: 1.5rem;
   text-align: left;
+  color: white;
 }
 
 main {
@@ -181,12 +186,25 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: white;
 }
 
 .basic,
 .premium {
   margin: 5% 0%;
   width: 40%;
+  
+}
+
+
+.list {
+  letter-spacing: .8px;
+  line-height: 170%;
+  text-align: left;
+  padding: 5%;
+  margin: 3%;
+  align-items: start;
+  color: white;
 }
 
 .bottomText {
