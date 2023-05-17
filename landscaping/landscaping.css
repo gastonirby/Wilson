@@ -136,8 +136,8 @@ body {
 }
 
 .img {
-  background-image: url(../assets/Images/background.jpg);
-  background-position: top;
+  background-image: url(../background.jpeg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -150,7 +150,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(4, 33, 6, 0.25);
+  /* background: rgba(4, 33, 6, 0.25); */
   z-index: 1;
 }
 

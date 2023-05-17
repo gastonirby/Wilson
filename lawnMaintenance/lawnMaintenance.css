@@ -136,8 +136,8 @@ body {
 }
 
 .img {
-  background-image: url(../assets/Images/background.jpg);
-  background-position: top;
+  background-image: url(../background.jpeg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -152,6 +152,7 @@ body {
   align-items: center;
   margin: 10% 0;
   font-size: 5rem;
+  color: white;
 }
 
 .body {
