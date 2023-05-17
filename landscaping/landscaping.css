@@ -135,16 +135,7 @@ body {
   overscroll-behavior: none;
 }
 
-.img {
-  background-image: url(../background.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  z-index: 0;
-}
+
 
 /* .overlay {
   position: fixed;
@@ -163,6 +154,21 @@ video {
   left: 0;
 } */
 
+.body {
+  z-index: 1;
+}
+
+.img {
+  background-image: url(../background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
 .title {
   font-size: 12rem;
   color: #fcfcfc;
@@ -173,15 +179,10 @@ video {
   width: 50%;
   text-align: center;
   font-family: 'Bad Script', bold;
-  line-height: 120%;
-  text-decoration: .15rem underline;
-  text-underline-position: under;
-  text-decoration-color: #efe006;
+  line-height: 100%;
+  border-bottom: 1.5px solid #efe006;
 }
 
-.body {
-  z-index: 1;
-}
 
 h3 {
   font-size: 4rem;
@@ -245,11 +246,11 @@ li {
 
 .link:hover {
   color: rgb(255, 255, 255);
-  /* padding: 2px; */
-  /* background-color: rgba(236, 232, 31, 0.427); */
   border-radius: 15px;
   transition: 1s;
 }
+
+/* NAVIGATION */
 
 .nav-menu {
   width: 80%;
@@ -297,6 +298,70 @@ li {
   color: #efe006;
 }
 
+/* FOOTER */
+
+footer {
+  margin-top: 10%;
+  margin-bottom: 0%;
+  width: 100%;
+  z-index: 3;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1% auto;
+  width: 50%;
+}
+
+.icons,
+.phoneIcon {
+  background: none;
+  font-size: 6.5rem;
+  width: 100%;
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.phoneIcon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h5 {
+  display: none;
+  color: #efe006;
+  font-size: 2rem;
+  width: 100%;
+  margin: 0;
+}
+
+.phoneIcon:hover h5 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  transition: 2s;
+}
+
+.phoneIcon:hover ion-icon {
+  display: none;
+  margin: 0;
+  padding: 0;
+  transition: 2s;
+}
+
+.icons:hover {
+  color: #efe006;
+  background: none;
+  transition: 1.5s;
+}
+
+/* STEPS */
+
 .steps {
   display: flex;
   flex-wrap: wrap;
@@ -327,72 +392,10 @@ h4 {
   color: white;
 }
 
-/* FOOTER */
+/* MEDIA QUERY */
+@media (max-width: 863px) {
 
-
-footer {
-  margin-top: 10%;
-  margin-bottom: 0%;
-  /* background-color: rgba(80, 132, 46, 0.36); */
-  width: 100%;
-  z-index: 3;
-}
-
-.iconContainer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 1% auto;
-  width: 50%;
-}
-
-.icons,
-.phoneIcon {
-  background: none;
-  font-size: 6.5rem;
-  width: 100%;
-  border: none;
-  color: whitesmoke;
-  cursor: pointer;
-  z-index: 4;
-}
-
-.phoneIcon {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-h4 {
-  display: none;
-  color: #efe006;
-  font-size: 2rem;
-  width: 100%;
-  margin: 0;
-}
-
-.phoneIcon:hover h4 {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  transition: 2s;
-}
-
-.phoneIcon:hover ion-icon {
-  display: none;
-  margin: 0;
-  padding: 0;
-  transition: 2s;
-}
-
-.icons:hover {
-  color: #efe006;
-  background: none;
-  transition: 1.5s;
-}
-
-/* @media only screen and (max-width: 768px) */
-@media (max-width: 856px) {
+  /* NAVIGATION */
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -454,6 +457,31 @@ h4 {
     font-size: 2.5rem;
   }
 
+
+
+  /* FOOTER */
+  .iconContainer {
+    width: 100%;
+  }
+
+  .icons, .phoneIcon {
+    font-size: 4rem;
+  }
+
+  .phoneIcon:hover h5 {
+    display: none;
+    transition: 2s;
+  }
+
+  .phoneIcon:hover ion-icon {
+    display: inline;
+    color: #efe006;
+    transition: 1.5s;
+  }
+
+  /* NOVELTY */
+
+
   .list {
     flex-direction: column;
     justify-content: space-evenly;
@@ -472,27 +500,6 @@ h4 {
 
   .step p {
     padding: 0%;
-  }
-
-
-  /* FOOTER */
-  .iconContainer {
-    width: 100%;
-  }
-
-  .icons, .phoneIcon {
-    font-size: 4rem;
-  }
-
-  .phoneIcon:hover h4 {
-    display: none;
-    transition: 2s;
-  }
-
-  .phoneIcon:hover ion-icon {
-    display: inline;
-    color: #efe006;
-    transition: 1.5s;
   }
 
 }

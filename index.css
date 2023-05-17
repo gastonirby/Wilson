@@ -220,22 +220,16 @@ video {
 
 .title {
   font-size: 12rem;
-  letter-spacing: 5px;
-  color: #ffffff;
+  color: #fcfcfc;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Bad Script', cursive;
+  margin: 15% auto 3%;
+  width: 50%;
+  text-align: center;
+  font-family: 'Bad Script', bold;
   line-height: 100%;
-  border-bottom: 2px solid #ffffff4b;
-  width: 30%;
-  margin: 15% auto 0;
-  
-  
-
-  /* text-decoration: 1.5px underline;
-  text-underline-position: under;
-  text-decoration-color: #ece81f; */
+  border-bottom: 1.5px solid #efe006;
 }
 
 h2 {
@@ -244,6 +238,15 @@ h2 {
   padding: 0%;
   text-align: center;
   color: white;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bad Script', cursive;
+  color: white;
+  font-size: 2.5rem;
 }
 
 p {
@@ -255,15 +258,7 @@ p {
   color: #CCDAB7;
 }
 
-.quote {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* font-style: oblique; */
-  font-family: 'Bad Script', cursive;
-  color: white;
-  font-size: 2.5rem;
-}
+
 
 .reviews {
   display: flex;

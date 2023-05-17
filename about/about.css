@@ -150,13 +150,17 @@ body {
 }
 
 .title {
+  font-size: 8rem;
+  color: #fcfcfc;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
-  font-size: 5rem;
-  border-bottom: 1px solid yellow;
-  color: white;
+  margin: 15% auto 3%;
+  width: 80%;
+  text-align: center;
+  font-family: 'Bad Script', bold;
+  line-height: 100%;
+  border-bottom: 1.5px solid #efe006;
 }
 
 .body {
