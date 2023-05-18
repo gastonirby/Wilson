@@ -194,8 +194,7 @@ main {
   background-color: rgba(54, 92, 29, 0.266);
   width: 80%;
   padding: 2%;
-  margin: 2%;
-  margin-top: 20%;
+  margin:20% 2% 2%;
   border-radius: 15px;
   color: white;
 }
@@ -481,8 +480,19 @@ img {
   }
 
   .list {
-    width: 100%;
+    width: 90%;
     line-height: 180%;
     font-size: 2rem;
+  }
+
+  .content {
+    width: 100%;
+    margin: 30% 0% 0%;
+    padding: 3% 0%;
+    border-radius: 0;
+  }
+
+  p {
+    padding: 0%;
   }
 }
