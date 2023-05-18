@@ -154,9 +154,6 @@ video {
   left: 0;
 } */
 
-.body {
-  z-index: 1;
-}
 
 .img {
   background-image: url(../background.jpeg);
@@ -207,6 +204,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 
 .content {

@@ -151,7 +151,7 @@ body {
 }
 
 .title {
-  font-size: 12rem;
+  font-size: 9.5rem;
   color: #fcfcfc;
   display: flex;
   flex-direction: column;
@@ -183,11 +183,22 @@ p {
 }
 
 main {
-  width: 80%;
-  margin: 30% auto 5%;
-  padding: 5%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.content {
   background-color: rgba(54, 92, 29, 0.266);
-  border-radius: 30px;
+  width: 80%;
+  padding: 2%;
+  margin: 2%;
+  margin-top: 30%;
+  border-radius: 15px;
+  color: white;
 }
 
 .services {
@@ -201,7 +212,6 @@ main {
 .premium {
   margin: 2% 0%;
   width: 45%;
-  
 }
 
 .list {
@@ -209,7 +219,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   margin-top: 3%;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   line-height: 170%;
   font-size: 2.3rem;
   padding: 5%;
@@ -338,9 +348,9 @@ h5 {
   transition: 1.5s;
 }
 
-
-/* @media only screen and (max-width: 768px) */
-@media (max-width: 768px) {
+/* MEDIA QUERY */
+@media (max-width: 863px) {
+  /* NAVIGATION */
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -362,6 +372,12 @@ h5 {
     margin: 2.5rem 0;
   }
 
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -379,9 +395,52 @@ h5 {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .title {
-    font-size: 4rem;
+  p {
+    margin-bottom: 5%;
     text-align: center;
+    margin: auto;
+    width: 95%;
+    padding: 0%;
+  }
+
+  .title {
+    font-size: 7rem;
+    margin: 25% auto 5%;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  /* FOOTER */
+  .iconContainer {
+    width: 100%;
+    margin-bottom: 7%;
+  }
+
+  .icons,
+  .phoneIcon {
+    font-size: 4rem;
+  }
+
+  .phoneIcon:hover h5 {
+    display: none;
+    transition: 2s;
+  }
+
+  .phoneIcon:hover ion-icon {
+    display: inline;
+    color: #efe006;
+    transition: 1.5s;
+  }
+
+  /* NOVEL */
+
+  .content {
+    width: 100%;
+    margin: 40% 0% 0%;
+    padding: 3% 0%;
+    border-radius: 0;
   }
 
   .services {
@@ -392,10 +451,17 @@ h5 {
 
   .basic,
   .premium {
-    width: 100%;
+    width: 90%;
   }
 
-  p {
-    /* text-align: center; */
+  li {
+    margin: 0%;
+    font-size: 2rem;
+  }
+
+  .list {
+    margin-top: 3%;
+    letter-spacing: 0.8px;
+    line-height: 120%;
   }
 }
