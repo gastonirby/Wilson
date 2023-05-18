@@ -150,13 +150,13 @@ body {
 }
 
 .title {
-  font-size: 8rem;
+  font-size: 8.5rem;
   color: #fcfcfc;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 15% auto 3%;
-  width: 80%;
+  width: auto;
   text-align: center;
   font-family: 'Bad Script', bold;
   line-height: 100%;
@@ -168,11 +168,11 @@ body {
 }
 
 p {
-  font-size: 1.5rem;
-  text-align: center;
-  background-color: rgba(245, 243, 226, 0.5);
+  font-size: 2rem;
+  text-align: left;
   padding: 5%;
-  border-radius: 10px;
+  border-radius: 30px;
+  color: white;
 }
 
 img {
@@ -180,19 +180,36 @@ img {
   margin: 5% 0;
   border-radius: 300px;
 }
+
 main {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
+
+.content {
+  background-color: rgba(54, 92, 29, 0.266);
+  width: 80%;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 15px;
+  color: white;
+}
+
+
+/* NAVIGATION */
 
 .nav-menu {
   width: 80%;
   margin: auto;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 2px solid #ffffff7d;
+}
+
+li {
+  margin: 1%;
 }
 
 .navbar {
@@ -222,27 +239,24 @@ main {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: white;
 }
 
 .nav-link {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 400;
-  color: #475569;
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: green;
+  color: #efe006;
 }
 
-li {
-  margin: 1%;
-}
+/* FOOTER */
 
 footer {
   margin-top: 10%;
   margin-bottom: 0%;
-  background-color: rgba(245, 243, 226, 0.2);
   width: 100%;
   z-index: 3;
 }
@@ -258,7 +272,7 @@ footer {
 .icons,
 .phoneIcon {
   background: none;
-  font-size: 3rem;
+  font-size: 6.5rem;
   width: 100%;
   border: none;
   color: whitesmoke;
@@ -272,15 +286,15 @@ footer {
   flex-direction: column;
 }
 
-h4 {
+h5 {
   display: none;
-  color: rgba(236, 232, 31);
+  color: #efe006;
   font-size: 2rem;
   width: 100%;
   margin: 0;
 }
 
-.phoneIcon:hover h4 {
+.phoneIcon:hover h5 {
   display: inline;
   margin: 0;
   padding: 0;
@@ -295,13 +309,16 @@ h4 {
 }
 
 .icons:hover {
-  color: rgba(236, 232, 31);
+  color: #efe006;
   background: none;
   transition: 1.5s;
 }
 
-/* @media only screen and (max-width: 768px) */
-@media (max-width: 768px) {
+
+/* MEDIA QUERY */
+@media (max-width: 863px) {
+
+  /* NAVIGATION */
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -323,6 +340,12 @@ h4 {
     margin: 2.5rem 0;
   }
 
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: black;
+  }
+
   .hamburger {
     display: block;
     cursor: pointer;
@@ -340,31 +363,52 @@ h4 {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  img {
-    border-radius: 140px;
-  }
-
-  main {
-    width: 100%;
-  }
-
   p {
-    border-radius: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    padding: 0%;
   }
 
+  .title {
+    font-size: 5rem;
+    margin: 25% auto 5%;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+
+
+  /* FOOTER */
   .iconContainer {
     width: 100%;
+    margin-bottom: 7%;
   }
 
-  .phoneIcon:hover h4 {
+  .icons, .phoneIcon {
+    font-size: 4rem;
+  }
+
+  .phoneIcon:hover h5 {
     display: none;
     transition: 2s;
   }
 
   .phoneIcon:hover ion-icon {
     display: inline;
-    color: rgba(236, 232, 31);
-    background: none;
+    color: #efe006;
     transition: 1.5s;
+  }
+
+  /* NOVELTY */
+
+  .content {
+    width: 100%;
+    margin: 10% 0% 0%;
+    padding: 3% 0%;
+    border-radius: 0;
   }
 }
