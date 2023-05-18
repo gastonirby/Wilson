@@ -231,10 +231,6 @@ main {
   line-height: 170%;
 }
 
-li {
-  margin: 1%;
-}
-
 .pic {
   width: 50%;
   height: auto;
@@ -256,6 +252,10 @@ li {
   width: 80%;
   margin: auto;
   border-bottom: 2px solid #ffffff7d;
+}
+
+li {
+  margin: 1%;
 }
 
 .navbar {
