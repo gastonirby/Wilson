@@ -235,6 +235,10 @@ main {
   color: green;
 }
 
+li {
+  margin: 1%;
+}
+
 footer {
   margin-top: 10%;
   margin-bottom: 0%;

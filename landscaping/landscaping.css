@@ -229,6 +229,8 @@ main {
   margin-top: 3%;
   color: white;
   font-size: 2.3rem;
+  letter-spacing: .8px;
+  line-height: 170%;
 }
 
 li {
@@ -491,8 +493,8 @@ h4 {
 
   .list {
     flex-direction: column;
-    justify-content: space-evenly;
     font-size: 2rem;
+    padding-left: 15%;
   }
 
   .pic {
@@ -501,13 +503,8 @@ h4 {
   }
 
   .step {
-    width: 100%;
-    margin: 2% 2%;
+    width: 90%;
+    margin: 2% 2% 5%;
     padding: 0%;
   }
-
-  .step p {
-    padding: 0%;
-  }
-
 }
