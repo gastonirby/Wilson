@@ -157,7 +157,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 15% auto 3%;
-  width: 50%;
+  width: auto;
   text-align: center;
   font-family: 'Bad Script', bold;
   line-height: 100%;
@@ -188,6 +188,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 
 .content {
