@@ -176,7 +176,7 @@ video {
   flex-direction: column;
   align-items: center;
   margin: 15% auto 3%;
-  width: 50%;
+  width: auto;
   text-align: center;
   font-family: 'Bad Script', bold;
   line-height: 100%;
@@ -444,8 +444,8 @@ h4 {
     margin-bottom: 5%;
     text-align: center;
     margin: auto;
-    width: 85%;
-    padding: 2%;
+    width: 95%;
+    padding: 0%;
   }
 
   .title {
@@ -487,11 +487,6 @@ h4 {
     margin: 30% 0% 0%;
     padding: 0%;
     border-radius: 0;
-  }
-
-  p {
-    padding: 0%;
-    width: 95%;
   }
 
   .list {
