@@ -482,6 +482,17 @@ h4 {
 
   /* NOVELTY */
 
+  .content {
+    width: 100%;
+    margin: 30% 0% 0%;
+    padding: 0%;
+    border-radius: 0;
+  }
+
+  p {
+    padding: 0%;
+    width: 95%;
+  }
 
   .list {
     flex-direction: column;
@@ -495,8 +506,9 @@ h4 {
   }
 
   .step {
-    width: 95%;
-    margin: 2%;
+    width: 100%;
+    margin: 2% 2%;
+    padding: 0%;
   }
 
   .step p {
