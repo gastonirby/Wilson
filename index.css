@@ -142,7 +142,7 @@ body {
 }
 
 .img {
-  background-image: url(../background.jpeg);
+  background-image: url(background.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -394,7 +394,6 @@ h5 {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
 
   .title {
     font-size: 8rem;
