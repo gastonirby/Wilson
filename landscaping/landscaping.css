@@ -388,7 +388,8 @@ h5 {
 h4 {
   text-align: center;
   font-size: 2.2rem;
-  border-bottom: 1px solid white;
+  font-family: 'Bad Script', bold;
+  border-bottom: 1px solid #efe006;
   color: white;
 }
 
