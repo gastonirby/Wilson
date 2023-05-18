@@ -449,8 +449,8 @@ h4 {
   }
 
   .title {
-    font-size: 6rem;
-    margin: 25% 5%;
+    font-size: 7rem;
+    margin: 25% auto 5%;
   }
 
   h3 {
@@ -462,6 +462,7 @@ h4 {
   /* FOOTER */
   .iconContainer {
     width: 100%;
+    margin-bottom: 7%;
   }
 
   .icons, .phoneIcon {
