@@ -176,7 +176,7 @@ body {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
   font-family: 'Bad Script', bold;
   margin-bottom: 2%;
@@ -222,7 +222,10 @@ main {
 .basic,
 .premium {
   margin: 2% 0%;
+  padding-top: 1%;
   width: 45%;
+  /* background-color: rgba(101, 191, 167, 0.623); */
+  border-radius: 15px;
 }
 
 .list {

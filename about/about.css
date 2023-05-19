@@ -155,7 +155,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15% auto 3%;
+  margin: 8% auto 3%;
   width: auto;
   text-align: center;
   font-family: 'Bad Script', bold;
@@ -163,23 +163,41 @@ body {
   border-bottom: 1.5px solid #efe006;
 }
 
-.body {
-  z-index: 1;
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: none;
+  background: none;
+  width: 80%;
+}
+
+.about p {
+  text-align: center;
+  width: 40%;
+  order: 1;
+  font-family: 'Bad Script', bold;
+  font-size: 2.5rem;
+  padding: 0%;
+  margin: 5%;
+}
+
+img {
+  order: 2;
+  width: 40%;
+  margin: 0%;
+  border-radius: 600px;
 }
 
 p {
   font-size: 2rem;
   text-align: left;
-  padding: 5%;
+  padding: 2%;
   border-radius: 30px;
   color: white;
 }
 
-img {
-  width: 50%;
-  margin: 5% 0;
-  border-radius: 300px;
-}
+
 
 main {
   width: 100%;
@@ -192,8 +210,8 @@ main {
 
 .content {
   background-color: rgba(54, 92, 29, 0.266);
-  width: 80%;
-  padding: 2%;
+  width: 70%;
+  /* padding: %; */
   margin: 2%;
   border-radius: 15px;
   color: white;
