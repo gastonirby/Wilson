@@ -152,12 +152,23 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15% auto 3%;
+  margin: 15% auto 1%;
   width: auto;
   text-align: center;
   font-family: 'Bad Script', bold;
   line-height: 100%;
   border-bottom: 1.5px solid #efe006;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+  color: white;
+  font-size: 2.5rem;
+  margin: 0%;
+  padding: 2%;
 }
 
 p {
