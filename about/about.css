@@ -172,17 +172,19 @@ body {
   width: 70%;
 }
 
-.about p {
+.quote {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  width: 40%;
-  order: 1;
-  font-family: 'Bad Script', bold;
-  font-size: 4rem;
+  font-family: 'Bad Script', cursive;
+  color: white;
+  font-size: 3rem;
+  margin: 1%;
   padding: 0%;
-  margin: 5%;
+  order: 1;
 }
 
-img {
+.aboutImg {
   order: 2;
   width: 40%;
   margin: 0%;
@@ -396,7 +398,11 @@ h5 {
     font-size: 2.5rem;
   }
 
-
+  .quote {
+    font-size: 2rem;
+    width: 90%;
+    margin-bottom: 2%;;
+  }
 
   /* FOOTER */
   .iconContainer {
@@ -426,5 +432,22 @@ h5 {
     margin: 10% 0% 0%;
     padding: 3% 0%;
     border-radius: 0;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutImg {
+    width: 75%;
+    padding: 3%;
+    margin: 1%;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  * {
   }
 }

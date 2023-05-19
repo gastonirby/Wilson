@@ -206,6 +206,7 @@ h3 {
 
 .number:hover {
   color: #efe006;
+  transition: 1s;
 }
 
 p {
