@@ -443,4 +443,8 @@ h5 {
     color: #efe006;
     transition: 1.5s;
   }
+
+  .number {
+    font-size: 3rem;
+  }
 }

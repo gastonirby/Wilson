@@ -418,11 +418,16 @@ h5 {
 
   .title {
     font-size: 5rem;
-    margin: 50% auto 30%;
+    margin: 25% auto 5%;
   }
 
   h3 {
     font-size: 2.5rem;
+  }
+
+  .quote {
+    font-size: 2.5rem;
+    width: 90%;
   }
 
   /* FOOTER */
