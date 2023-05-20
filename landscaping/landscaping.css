@@ -223,12 +223,18 @@ main {
 
 .list {
   display: flex;
-  justify-content: space-around;
-  margin-top: 3%;
+  justify-content: space-evenly;
+  margin-top: 1%;
   color: white;
   font-size: 2.3rem;
   letter-spacing: .8px;
   line-height: 170%;
+  width: 100%;
+}
+
+.list1, .list2 {
+  margin:0% 0% 0% 10%;
+  width: 80%;
 }
 
 .pic {
@@ -494,7 +500,7 @@ h4 {
   .list {
     flex-direction: column;
     font-size: 2rem;
-    padding-left: 15%;
+    padding: 5%;
   }
 
   .pic {
