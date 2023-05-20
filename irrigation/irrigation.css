@@ -216,6 +216,11 @@ svg {
   color: #efe006;
 }
 
+.link:hover {
+  color: white;
+  transition: 1s;
+}
+
 h6 {
   text-align: center;
   /* margin: auto; */

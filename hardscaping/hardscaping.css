@@ -176,7 +176,7 @@ h4 {
   justify-content: center;
   text-align: center;
   font-family: 'Bad Script', bold;
-  font-size: 2.5rem;
+  font-size: 4rem;
   border-bottom: 1px solid #efe006;
   width: auto;
   margin: auto;
@@ -451,6 +451,7 @@ h5 {
   h4 {
     padding: 0% 5%;
     border-bottom: none;
+    font-size: 2rem;
   }
   .content {
     width: 100%;
