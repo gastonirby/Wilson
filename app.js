@@ -9,7 +9,7 @@ let mm = gsap.matchMedia()
 //     }
 //   })
 // }
-mm.add('(min-width: 500px)', () => {
+// mm.add('(min-width: 200px)', () => {
   gsap.from('.title', {
     autoAlpha: 0,
     y: -500,
@@ -36,4 +36,4 @@ mm.add('(min-width: 500px)', () => {
     //   markers: true
     }
   })
-})
+// })
