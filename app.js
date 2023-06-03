@@ -1,15 +1,15 @@
 let mm = gsap.matchMedia()
 
-// window.addEventListener('load', loader)
+window.addEventListener('load', loader)
 
-// function loader () {
-//   const TLLOAD = gsap.timeline({
-//     default: {
-//       ease: 'power2'
-//     }
-//   })
-// }
-// mm.add('(min-width: 200px)', () => {
+function loader () {
+  const TLLOAD = gsap.timeline({
+    default: {
+      ease: 'power2'
+    }
+  })
+}
+
   gsap.from('.title', {
     autoAlpha: 0,
     y: -500,
@@ -24,6 +24,15 @@ let mm = gsap.matchMedia()
     ease: 'power4'
   })
 
+  gsap.from('.headInfo', {
+    autoAlpha: 0,
+    // y: -500,
+    duration: 3,
+    delay: 5,
+    ease: 'power2'
+  })
+  
+
   gsap.from('.reviews', {
     autoAlpha: 0,
     y: 200,
@@ -36,4 +45,3 @@ let mm = gsap.matchMedia()
     //   markers: true
     }
   })
-// })

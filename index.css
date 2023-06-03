@@ -172,6 +172,11 @@ main {
   border-bottom: 1.5px solid #efe006;
 }
 
+.headInfo {
+  display: flex;
+  flex-direction: column;
+}
+
 h2 {
   font-size: 3rem;
   color: white;
