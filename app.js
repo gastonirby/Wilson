@@ -19,17 +19,25 @@ function loader () {
 
   gsap.from('.navbar', {
     autoAlpha: 0,
-    y: -500,
-    duration: 7,
-    ease: 'power4'
+    y: -100,
+    duration: 2,
+    delay: 4,
+    ease: 'elastic'
   })
 
   gsap.from('.headInfo', {
     autoAlpha: 0,
-    // y: -500,
     duration: 3,
-    delay: 5,
+    delay: 4,
     ease: 'power2'
+  })
+
+  gsap.from('.quote', {
+    autoAlpha: 0,
+    duration: 2,
+    y: -100,
+    delay: 6,
+    ease: 'power4'
   })
   
 
