@@ -19,16 +19,16 @@ function loader () {
 
   gsap.from('.navbar', {
     autoAlpha: 0,
-    y: -100,
-    duration: 2,
-    delay: 4,
+    y: -50,
+    duration: 3,
+    delay: 2,
     ease: 'elastic'
   })
 
   gsap.from('.headInfo', {
     autoAlpha: 0,
-    duration: 3,
-    delay: 4,
+    duration: 4,
+    delay: 2,
     ease: 'power2'
   })
 
@@ -36,7 +36,7 @@ function loader () {
     autoAlpha: 0,
     duration: 2,
     y: -100,
-    delay: 6,
+    delay: 3,
     ease: 'power4'
   })
   
