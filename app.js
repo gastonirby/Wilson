@@ -27,23 +27,23 @@ function loader () {
 
   gsap.from('.headInfo', {
     autoAlpha: 0,
-    duration: 4,
+    duration: 3,
     delay: 2,
     ease: 'power2'
   })
 
   gsap.from('.quote', {
     autoAlpha: 0,
-    duration: 2,
-    y: -100,
-    delay: 3,
+    duration: 3,
+    y: -50,
+    delay: 3.5,
     ease: 'power4'
   })
   
 
   gsap.from('.reviews', {
     autoAlpha: 0,
-    y: 200,
+    y: 100,
     scale: 1,
     scrollTrigger: {
       trigger: '.reviews',
